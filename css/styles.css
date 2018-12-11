@@ -1,0 +1,119 @@
+img.icl-preloader
+{
+	width:100px;
+	height:100px;
+}
+
+
+.icl-activity-wrap
+{
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding:20px;
+	margin:10px 0px;
+}
+
+.icl-activity-wrap button, .icl-activity-wrap input[type=button]
+{
+	padding:10px;
+	font-size:16px;
+	border-radius:5px;
+	border:0px;
+	background:#335387;
+	color:#fff;	
+	text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+	margin:5px;
+}
+
+.icl-activity-wrap input[type=readonly]
+{
+	background:#f7f7f7;
+}
+
+.imperial-data-input
+{
+	padding:10px;
+	border-radius:3px;
+}
+
+
+
+.icl-activity-wrap button:hover, .icl-activity-wrap input[type=button]:hover
+{
+	cursor:pointer;
+}
+
+.icl-activity-wrap .delete
+{
+	background:red;
+	
+}
+
+.feedback-success
+{
+		background:#f5fff4;
+		color:#23561e;
+		padding:5px;
+		border:1px solid #23561e;
+		margin:5px 0px;
+		border-radius:3px;
+}
+
+
+
+/* Countdown Numbers */
+.icl-countdown
+{
+
+	background:#000;
+	width:150px;
+	font-size:40px;
+	color:#fff;
+	border-radius:5px;
+	display: grid;
+	grid-template-columns: auto 10px auto;
+	background-color: #000;
+	
+}
+
+.icl-countdown div:nth-of-type(1), .icl-countdown div:nth-of-type(3)
+{
+	background:#fff;
+	color:#000;
+	border-radius:5px;
+	margin:5px;
+}
+
+
+
+.icl-countdown div
+{
+  padding: 4px;
+  font-size: 30px;
+  text-align: center;
+ 
+}
+
+
+.icl-countdown div:nth-of-type(4), .icl-countdown div:nth-of-type(6)
+{
+	font-size:12px;
+}
+
+
+
+
+/* The  Edit this object div */
+.object-edit-div
+{
+	margin:10px 0px;
+	color:#ccc;	
+}
+	
+
+.object-edit-div a
+{
+	color:#ccc;
+	font-size:12px;
+}
+
