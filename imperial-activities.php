@@ -2,8 +2,9 @@
 /*
 Plugin Name: Imperial Activities
 Description: Freehand drawing, tables and more
-Version: 0.1
+Version: 0.1.1
 Author: Alex Furr
+GitHub Plugin URI: https://github.com/ImperialCollegeLondon/imperial-activities
 */
 
 
