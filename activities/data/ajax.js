@@ -1,24 +1,25 @@
 function ajaxSaveImperialData(dataID, myDataObj)
 {
 
-	
+
+console.log("URL="+imperialData_frontEndAjax.ajaxurl);
+
+
 	jQuery.ajax({
 		type: 'POST',
 		url: imperialData_frontEndAjax.ajaxurl,
-		data: {			
+		data: {
 			"action": "saveImperialData",
 			"myDataObj": myDataObj,
 			"dataID": dataID,
 			"security": imperialData_frontEndAjax.ajax_nonce
 		},
 		success: function(data){
-			
-			document.getElementById("dataCollectionWrap_"+dataID).innerHTML = data;	
+
+			document.getElementById("dataCollectionWrap_"+dataID).innerHTML = data;
 			ICL_DATA.add_listeners_options();
 		}
-	});	
+	});
 	return false;
-	
+
 }
-
-

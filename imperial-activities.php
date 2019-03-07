@@ -15,9 +15,7 @@ include_once( IMPERIAL_ACTIVITIES_PATH . '/classes/class-wp.php');
 include_once( IMPERIAL_ACTIVITIES_PATH . '/classes/class-utils.php');
 
 // Drawing
-include_once( IMPERIAL_ACTIVITIES_PATH . 'activities/canvas/class-canvas.php');
-include_once( IMPERIAL_ACTIVITIES_PATH . 'activities/canvas/class-ajax.php');
-include_once( IMPERIAL_ACTIVITIES_PATH . 'activities/canvas/class-canvas-cpt.php');
+include_once( IMPERIAL_ACTIVITIES_PATH . 'activities/canvas/includes.php');
 
 // Document UPload
 include_once( IMPERIAL_ACTIVITIES_PATH . 'activities/document-upload/includes.php');
